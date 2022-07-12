@@ -3,6 +3,7 @@ package com.justimagine.singleton;
 import com.justimagine.singleton.demo6.Singleton;
 
 /**
+ * https://www.runoob.com/design-pattern/design-pattern-tutorial.html
  * @Description TODO
  * @Date 2022/7/11 14:39
  * @Created by zhushuxian
