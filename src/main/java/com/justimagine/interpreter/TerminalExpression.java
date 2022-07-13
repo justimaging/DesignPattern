@@ -1,0 +1,23 @@
+package com.justimagine.interpreter;
+
+/**
+ * @Description TODO
+ * @Date 2022/7/13 14:39
+ * @Created by zhushuxian
+ */
+public class TerminalExpression implements Expression {
+
+    private String data;
+
+    public TerminalExpression(String data){
+        this.data = data;
+    }
+
+    @Override
+    public boolean interpret(String context) {
+        if(context.contains(data)){
+            return true;
+        }
+        return false;
+    }
+}
